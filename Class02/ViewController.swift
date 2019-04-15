@@ -15,22 +15,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //型別宣告
-        let a : Int = 0
+        let a = add(a: 2, b: 5)
         
         //
         if ( a > 0){
-            print(">0")
+            print("a 值為： \( a )")
         }
         else{
-            print("<0")
+            print("")
         }
-        
+    }
         
         func add(a : Int, b : Int) -> Int{
             return a+b
         }
-        
-    }
+  
 
 
 }
